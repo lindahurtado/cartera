@@ -1,0 +1,104 @@
+body {
+    background-color: #D0E9DC;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.logo-image {
+    width: 400px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    background-color: #44946C;
+    color: white;
+    font-family: Roboto, 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+    gap: 30px;
+    padding: 20px 0px;
+    justify-content: center;
+    border-radius: 2px;
+    list-style-type: none;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+.promo {
+    background-image: url(https://drive.google.com/file/d/1Qpk0pKvJ0dhLHLr-g4NIpNg8k1Pn7QN-/view?usp=sharing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.2);
+}
+
+.promo p {
+    background-color: rgb(255 255 255 / 50%);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+}
+
+.column-image {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    font-family: Roboto, 'Open Sans';
+    box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.column-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.column-text {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #A0D1B8;
+}
+
+.footer-image {
+    width: 100px;
+    height: 200px;
+}
+
+.footer-text {
+    font-family: Roboto, 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+}
